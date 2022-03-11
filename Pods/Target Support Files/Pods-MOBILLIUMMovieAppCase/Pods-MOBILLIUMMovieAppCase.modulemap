@@ -1,0 +1,6 @@
+framework module Pods_MOBILLIUMMovieAppCase {
+  umbrella header "Pods-MOBILLIUMMovieAppCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

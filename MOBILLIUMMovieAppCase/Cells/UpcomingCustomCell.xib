@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="136" id="KGk-i7-Jjw" customClass="UpcomingCustomCell" customModule="MOBILLIUMMovieAppCase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7ef-hq-49I">
+                        <rect key="frame" x="16" y="17" width="104" height="103"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="aT5-NU-Jyl"/>
+                            <constraint firstAttribute="height" constant="103" id="nJp-qn-Zjy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Great Beauty (2013)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAO-Zd-e8u">
+                        <rect key="frame" x="128" y="24" width="203" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="203" id="1Sb-Xq-50U"/>
+                            <constraint firstAttribute="height" constant="20" id="SIv-Yd-lUK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.16862745098039217" green="0.1764705882352941" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qke-xc-uEq">
+                        <rect key="frame" x="128" y="52" width="203" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="DfI-rQ-GZO"/>
+                            <constraint firstAttribute="width" constant="203" id="Xqp-Zy-Ewk"/>
+                        </constraints>
+                        <string key="text">Jep Gambardella has seduced his way through the lavish…
+</string>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" red="0.55294117647058827" green="0.59999999999999998" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.06.2021" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7X-0t-55a">
+                        <rect key="frame" x="253" y="104" width="78" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="78" id="3ah-tI-MKf"/>
+                            <constraint firstAttribute="height" constant="16" id="5NJ-YT-PQO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.55294117649999996" green="0.59999999999999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7ef-hq-49I" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="0ne-NN-jYb"/>
+                    <constraint firstItem="P7X-0t-55a" firstAttribute="leading" secondItem="7ef-hq-49I" secondAttribute="trailing" constant="133" id="7Zn-GH-t9Y"/>
+                    <constraint firstItem="UAO-Zd-e8u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="8XA-wn-JOF"/>
+                    <constraint firstItem="UAO-Zd-e8u" firstAttribute="leading" secondItem="7ef-hq-49I" secondAttribute="trailing" constant="8" id="AfH-5a-xiV"/>
+                    <constraint firstItem="Qke-xc-uEq" firstAttribute="leading" secondItem="7ef-hq-49I" secondAttribute="trailing" constant="8" id="Qm5-1Y-Vf4"/>
+                    <constraint firstAttribute="bottom" secondItem="7ef-hq-49I" secondAttribute="bottom" constant="16" id="RUy-wm-Jfm"/>
+                    <constraint firstItem="7ef-hq-49I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ebF-aP-g1X"/>
+                    <constraint firstItem="Qke-xc-uEq" firstAttribute="top" secondItem="UAO-Zd-e8u" secondAttribute="bottom" constant="8" id="nrx-NM-8Xz"/>
+                    <constraint firstItem="P7X-0t-55a" firstAttribute="top" secondItem="Qke-xc-uEq" secondAttribute="bottom" constant="16" id="spP-ob-YLQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieDate" destination="P7X-0t-55a" id="yes-uW-Blh"/>
+                <outlet property="movieDescription" destination="Qke-xc-uEq" id="XAl-HK-9CR"/>
+                <outlet property="movieImage" destination="7ef-hq-49I" id="VVe-76-XRU"/>
+                <outlet property="movieName" destination="UAO-Zd-e8u" id="Vvg-8O-mnV"/>
+            </connections>
+            <point key="canvasLocation" x="89.130434782608702" y="141.29464285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
